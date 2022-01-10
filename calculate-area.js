@@ -20,12 +20,12 @@ radios[2].addEventListener("change", () => {
   showOrHideBlock(areaCalBlock, 2, 1, 0);
 });
 
-function showOrHideBlock(
+const showOrHideBlock = (
   blockDivs,
   showDivIndex,
   hideDivIndex1,
   hideDivIndex2
-) {
+) => {
   blockDivs[showDivIndex].style.display = "block";
   blockDivs[hideDivIndex1].style.display = "none";
   blockDivs[hideDivIndex2].style.display = "none";
