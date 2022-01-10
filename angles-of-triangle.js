@@ -6,7 +6,7 @@ let angles = [];
 
 document.addEventListener("submit", formTriangleHandler);
 
-function formTriangleHandler(e) {
+ const formTriangleHandler = e => {
   e.preventDefault();
 
  //add the angles input
